@@ -1,0 +1,12 @@
+@import "../../styles/main.scss";
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 45px;
+  color: $mySin;
+  text-shadow: 1px 1px 2px $wildSand;
+}

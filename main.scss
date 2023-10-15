@@ -1,0 +1,30 @@
+@import "./normalize";
+@import "./variables";
+@import "./animations";
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: black;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  color: $white;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand", sans-serif;
+}
+
+

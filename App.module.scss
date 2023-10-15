@@ -1,0 +1,19 @@
+.main {
+  position: absolute;
+  top: 20vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  transition: top 1s;
+  margin-bottom: 200px;
+  @media (max-height: 600px) {
+    top: 0;
+  }
+}
+
+.mainActive {
+  @extend .main;
+  top: 0;
+  margin-bottom: 0;
+}

@@ -1,0 +1,43 @@
+@import "../../styles/main.scss";
+
+.footerContainer {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  width: 100%;
+  height: 120px;
+  max-width: 1440px;
+  z-index: 1;
+  background: black;
+  border-top: 1px solid $mySin;
+}
+
+.footerList {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footerListItem {
+  padding: 2px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: rotateX(20deg) rotateY(20deg);
+  }
+}
+
+.footerIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.footerDistinction {
+  color: $mySin;
+  text-decoration: underline;
+}
